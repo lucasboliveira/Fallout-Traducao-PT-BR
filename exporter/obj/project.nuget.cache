@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "71pAXEYYSpk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wwwlu\\Downloads\\FSptBR\\exporter\\FSI2Export.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wwwlu\\.nuget\\packages\\assetstools.net\\3.0.4\\assetstools.net.3.0.4.nupkg.sha512",
+    "C:\\Users\\wwwlu\\.nuget\\packages\\assetstools.net.monocecil\\3.0.4\\assetstools.net.monocecil.3.0.4.nupkg.sha512",
+    "C:\\Users\\wwwlu\\.nuget\\packages\\mono.cecil\\0.11.3\\mono.cecil.0.11.3.nupkg.sha512"
+  ],
+  "logs": []
+}

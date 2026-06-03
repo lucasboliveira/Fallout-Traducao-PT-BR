@@ -1,0 +1,212 @@
+{
+  "version": 4,
+  "targets": {
+    "net8.0": {
+      "AssetsTools.NET/3.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AssetsTools.NET.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/AssetsTools.NET.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AssetsTools.NET.MonoCecil/3.0.4": {
+        "type": "package",
+        "dependencies": {
+          "AssetsTools.NET": "3.0.0",
+          "Mono.Cecil": "0.11.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/AssetsTools.NET.MonoCecil.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AssetsTools.NET.MonoCecil.dll": {}
+        }
+      },
+      "Mono.Cecil/0.11.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "related": ".Mdb.pdb;.pdb;.Pdb.pdb;.Rocks.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "related": ".Mdb.pdb;.pdb;.Pdb.pdb;.Rocks.pdb"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AssetsTools.NET/3.0.4": {
+      "sha512": "NqYy5UIucwKwdkpamFTi8lr53hD+V8qQmbHzztQj1v4Pq1G4TjNlpkUWOhktTLBqBm4aPRaAkpFgB+3TDEuomw==",
+      "type": "package",
+      "path": "assetstools.net/3.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "assetstools.net.3.0.4.nupkg.sha512",
+        "assetstools.net.nuspec",
+        "icon.png",
+        "lib/net35/AssetsTools.NET.dll",
+        "lib/net35/AssetsTools.NET.xml",
+        "lib/net40/AssetsTools.NET.dll",
+        "lib/net40/AssetsTools.NET.xml",
+        "lib/netstandard2.0/AssetsTools.NET.dll",
+        "lib/netstandard2.0/AssetsTools.NET.xml"
+      ]
+    },
+    "AssetsTools.NET.MonoCecil/3.0.4": {
+      "sha512": "cWchJC+FR5h9ULKYFYPZL5zVBXRzKLBMQTNspQGH9pq4lXtwFTWd1QtOkX5HsHirGrmm651h/TfwrBZ2ru9PvA==",
+      "type": "package",
+      "path": "assetstools.net.monocecil/3.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "assetstools.net.monocecil.3.0.4.nupkg.sha512",
+        "assetstools.net.monocecil.nuspec",
+        "icon.png",
+        "lib/net40/AssetsTools.NET.MonoCecil.dll",
+        "lib/netstandard2.0/AssetsTools.NET.MonoCecil.dll"
+      ]
+    },
+    "Mono.Cecil/0.11.3": {
+      "sha512": "DNYE+io5XfEE8+E+5padThTPHJARJHbz1mhbhMPNrrWGKVKKqj/KEeLvbawAmbIcT73NuxLV7itHZaYCZcVWGg==",
+      "type": "package",
+      "path": "mono.cecil/0.11.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Mono.Cecil.Mdb.dll",
+        "lib/net40/Mono.Cecil.Mdb.pdb",
+        "lib/net40/Mono.Cecil.Pdb.dll",
+        "lib/net40/Mono.Cecil.Pdb.pdb",
+        "lib/net40/Mono.Cecil.Rocks.dll",
+        "lib/net40/Mono.Cecil.Rocks.pdb",
+        "lib/net40/Mono.Cecil.dll",
+        "lib/net40/Mono.Cecil.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "lib/netstandard2.0/Mono.Cecil.Mdb.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "lib/netstandard2.0/Mono.Cecil.Pdb.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "lib/netstandard2.0/Mono.Cecil.Rocks.pdb",
+        "lib/netstandard2.0/Mono.Cecil.dll",
+        "lib/netstandard2.0/Mono.Cecil.pdb",
+        "mono.cecil.0.11.3.nupkg.sha512",
+        "mono.cecil.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AssetsTools.NET >= 3.0.4",
+      "AssetsTools.NET.MonoCecil >= 3.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\wwwlu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\wwwlu\\Downloads\\FSptBR\\exporter\\FSI2Export.csproj",
+      "projectName": "FSI2Export",
+      "projectPath": "C:\\Users\\wwwlu\\Downloads\\FSptBR\\exporter\\FSI2Export.csproj",
+      "packagesPath": "C:\\Users\\wwwlu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wwwlu\\Downloads\\FSptBR\\exporter\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\wwwlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "framework": "net8.0",
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "AssetsTools.NET": {
+            "target": "Package",
+            "version": "[3.0.4, )"
+          },
+          "AssetsTools.NET.MonoCecil": {
+            "target": "Package",
+            "version": "[3.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
