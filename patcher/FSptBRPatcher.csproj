@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Traduzir-FalloutShelter-PTBR</AssemblyName>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AssetsTools.NET" Version="3.0.4" />
+    <PackageReference Include="AssetsTools.NET.MonoCecil" Version="3.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="res\ptbr.csv"><LogicalName>ptbr.csv</LogicalName></EmbeddedResource>
+    <EmbeddedResource Include="res\classdata.tpk"><LogicalName>classdata.tpk</LogicalName></EmbeddedResource>
+  </ItemGroup>
+
+</Project>
